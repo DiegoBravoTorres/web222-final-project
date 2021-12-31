@@ -1,0 +1,18 @@
+.form-control {
+  width: 700px;
+  margin-bottom: 30px;
+}
+label {
+  font-weight: bolder;
+}
+.text-danger {
+  color: red;
+}
+
+.submit-btn {
+  width: 720px;
+}
+
+textarea {
+  width: 30000px;
+}

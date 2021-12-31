@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Enter your First_Name and Last_Name, Student Id and Course Name here -->
+    <!-- Diego Bravo Torres    -->
+    <!-- Student ID: 138350202 -->
+    <!-- WEB 222               -->
+
+    <meta charset="UTF-8">
+    <title>Ontario Bird Sanctuary</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">OBS Toronto</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">About Us</a></li>
+              <li><a href="add-Bird.html">Register Animal</a></li>
+              <li><a href="fetch-data.html">Select Bird</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Replace the text and images if you want -->
+      <div  id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+
+        <div class="carousel-inner" role="listbox">
+          <div class="active item">
+            <div class="banner" style="background-image: url(https://images.unsplash.com/photo-1480044965905-02098d419e96?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);"></div>
+            <div class="carousel-caption">
+              <h2 class="animated bounceInRight" style="animation-delay: 1s">We preserve <span> Birds</span> here</h2>
+              <h3 class="animated bounceInLeft" style="animation-delay: 2s">Ontario Bird Sanctuary</h3>
+              <p class="animated bounceInRight" style="animation-delay: 3s"><a href="#">Contact Us</a></p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="banner" style="background-image: url(https://images.unsplash.com/photo-1444464666168-49d633b86797?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80);"></div>
+            <div class="carousel-caption">
+              <h2 class="animated bounceInRight" style="animation-delay: 1s">We take special care of <span> Endangered Birds</span> here</h2>
+              <h3 class="animated bounceInLeft" style="animation-delay: 2s">Ontario Bird Sanctuary</h3>
+              <p class="animated bounceInRight" style="animation-delay: 3s"><a href="#">Contact Us</a></p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="banner" style="background-image: url(https://images.unsplash.com/photo-1553736277-055142d018f0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=953&q=80);"></div>
+            <div class="carousel-caption">
+              <h2 class="animated bounceInRight" style="animation-delay: 1s">Unique and Special<span> Pet Birds</span></h2>
+              <h3 class="animated bounceInLeft" style="animation-delay: 2s">Ontario Bird Sanctuary</h3>
+              <p class="animated bounceInRight" style="animation-delay: 3s"><a href="#">Contact Us</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <main>
+      <div class="desc-para">
+         <h3>Our Mission</h3>
+         <p>We’ve always moved wherever the need for animal protection is greatest – from treating more than 70,000 animals following the Haiti earthquake in 2010, to ending bear dancing across India in 2012, to investigating animal trafficking in El Salvador. And as we’ve grown, we’ve focused on protecting more animals in more places.
+         </p>
+         <p>We’ve moved international organisations to protect animals for many years. As WSPA, we began lobbying the EU in the 1980s, were given consultative status at the UN in 1981 and by the 1990s had been represented at the Council of Europe. Today, we’re the only animal protection organisation to regularly address the UN. <br><br></p>
+      </div>
+      <div class="desc-para">
+          <h3>Some User Obervations</h3>
+          <div id="table">
+          <table>
+            <tbody>
+                <tr style="width: 100%;" class="table-head">
+                    <th style="width: 270px;">Image</th>
+                    <th style="width: 127px;">Species</th>
+                    <th style="width: 486px;">Description</th>
+                    <th style="width: 100px;">Date Found</th>
+                </tr>
+                <tr >
+                  <th><img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Wood_Duck_%28Aix_sponsa%29%2C_Parc_du_Rouge-Clo%C3%AEtre%2C_Brussels.jpg" alt="wood duck"></th>
+                  <th> <a href="https://en.wikipedia.org/wiki/Wood_duck">Wood Duck</a></li></th>
+                  <th>There is a distinctive multicolored iridescent plumage and red eyes, with a distinctive white flare down the neck</th>
+                  <th>April 17, 2021</th>
+              </tr>
+              <tr >
+                <th><img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Cardinal.jpg" alt="northen cardinal"></th>
+                <th> <a href="https://en.wikipedia.org/wiki/Northern_cardinal">Northen Cardinal</a></li></th>
+                <th>It has a distinctive crest on the head and a mask on the face which is black. The bird is also vibrant red.</th>
+                <th>April 15, 2021</th>
+            </tr>
+            <tr >
+              <th><img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Passer_domesticus_male_%2815%29.jpg" alt="house sparrow"></th>
+              <th> <a href="https://en.wikipedia.org/wiki/House_sparrow">House Sparrow</a></li></th>
+              <th>The bird has a mottled brown back, gray belly and crown, black "bib", white checks, and chestnut head patches.</th>
+              <th>March 29, 2021</th>
+          </tr>
+            </tbody>
+        </table>
+       </div>
+      </div>
+
+      <div id="help-us">
+          <p style="padding: 30px;"><strong>Helps us expand our database and report a sighting of a bird!</strong></p>
+          <button style="padding: 20px;background-color: #7be185;border-radius: 15px;border: none;"><a href="/Final_Assessment/src/add-Bird.html"><strong style="padding: 52px; color: white;">Add a Bird</strong></a></button>
+        <!-- Place the HTML Content here. Use different HTML elements which we discussed in all the previous classes. 
+        You must include one Responsive Table here. -->
+    </main>
+
+    <footer>
+      <p>There are various ways to help! Come volunteer, donate, get involved in events or spread<br> the hashtag <strong>#ProtectOurBirds</strong> </p>
+      <h4 style="padding: 30px;">Follow us on social media!</h4>
+      <!-- Add Social Media Icons here and link them with random websites of your choice -->
+       
+      <a href="http://www.facebook.com/yourawesomepage"><img src="SoMediaIcons/face.png" alt="Facebook Social Icon"></a>
+      <a href="http://www.facebook.com/yourawesomepage"><img src="SoMediaIcons/inst.png" alt="Instagram Social Icon"></a>
+      <a href="http://www.facebook.com/yourawesomepage"><img src="SoMediaIcons/twit.png" alt="Twitter Social Icon"></a>
+      <a href="http://www.facebook.com/yourawesomepage"><img src="SoMediaIcons/yout.png" alt="YouTube Social Icon"></a>
+ 
+  
+      
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
